@@ -1,9 +1,9 @@
 var katzDeliLine = [];
 var totalNumber = 0
 
-function takeANumber(array, person) {
-  return "Welcome, " + person + ". You are number " + array.push(person) + " in line."
+function takeANumber(array) {
   totalNumber++
+  return "Welcome, you are customer number " + totalNumber + " today."
 }
 
 function nowServing(array) {
